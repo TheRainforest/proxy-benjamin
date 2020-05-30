@@ -3,3 +3,9 @@
 
 # public files
 /public/
+
+# environment
+.env
+
+# monitoring
+newrelic.js
