@@ -3,3 +3,10 @@
 
 # public files
 /public/
+
+# environment
+.env
+
+# monitoring
+newrelic.js
+newrelic_agent.log

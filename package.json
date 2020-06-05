@@ -1,5 +1,5 @@
 {
-  "name": "proxy-legolas-jmaughan",
+  "name": "proxy-rainforest",
   "version": "1.0.0",
   "description": "Jeff Maughan's proxy server for team legolas' FEC project.",
   "main": "server/index.js",
@@ -19,11 +19,12 @@
   },
   "homepage": "https://github.com/hrr45-fec8-legolas/proxy-legolas-jmaughan#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.3",
+    "newrelic": "^6.8.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.43.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
